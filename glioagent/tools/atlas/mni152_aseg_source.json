@@ -1,0 +1,9 @@
+{
+  "file": "mni152_aseg_dseg.nii.gz",
+  "source": "templateflow tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz",
+  "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz",
+  "sha256": "0bb033414fbbd6df626d063b73801a14c71fb33b83204585f2aa1fbb4aef60dd",
+  "grid": "193x229x193, 1 mm isotropic; identical affine to mni152_t1_brain.nii.gz",
+  "used_for": "deep-structure involvement (thalamus, basal ganglia, brainstem, corpus callosum)",
+  "licence": "see templateflow tpl-MNI152NLin2009cAsym LICENSE"
+}

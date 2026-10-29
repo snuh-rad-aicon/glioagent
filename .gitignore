@@ -1,0 +1,20 @@
+# model weights are not distributed here; they are fetched from the official releases
+glioagent/tools/ckpts/*
+!glioagent/tools/ckpts/README.md
+*.pth
+*.pt
+*.ckpt
+
+# run output, caches, the language-model cache
+outputs/
+hf_cache/
+.slice_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# patient data that is not redistributable
+demo_data/
+reader_study_app/
+**/snuh_reports*
+**/*_clean.json

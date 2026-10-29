@@ -1,0 +1,42 @@
+[project]
+name = "vasari-auto"
+version = "0.1.0"
+description = "Automated VASARI featurisation of glioma MRI — fork of the original by Ruffle et al."
+authors = [
+    { name = "James Ruffle", email = "j.ruffle@ucl.ac.uk" },
+    { name = "Nikitas C. Koussis" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "seaborn",
+    "antspyx",
+    "nibabel"
+]
+
+[project.urls]
+Homepage = "https://github.com/nikitas-k/vasari-auto"
+Original = "https://github.com/jamesruffle/vasari-auto"
+Article = "https://doi.org/10.1016/j.nicl.2024.103668"
+
+[tool.setuptools]
+packages = ["vasari_auto"]
+
+[tool.setuptools.package-data]
+vasari_auto = [
+    "atlas_masks/mni152/*.nii.gz",
+    "atlas_masks/sri24/*.nii.gz",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

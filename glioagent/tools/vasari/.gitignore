@@ -1,0 +1,15 @@
+*.egg-info
+build
+dist
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pyd
+*.so
+*.egg
+*.whl
+*.db
+*.sqlite
+*.log

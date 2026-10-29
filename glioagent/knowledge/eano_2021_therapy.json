@@ -1,0 +1,691 @@
+{
+  "source_version": "EANO 2021 (+ Stupp 2005 for protocol details)",
+  "source_of_record": "Weller M et al. EANO guidelines on the diagnosis and treatment of diffuse gliomas of adulthood. Nat Rev Clin Oncol 2021;18:170-186 (CC BY 4.0); Stupp R et al. N Engl J Med 2005;352:987-996.",
+  "_note": "Evidence quotes are filled verbatim from the source PDF by extract_eano_quotes.py and gated by verify_eano_quotes.py (verbatim=true only if the quote is a substring of the PDF text). Value fields are corrected per the guideline body. source_version stays 'EANO 2021'; post-2021 updates live in post_guideline_updates.",
+  "predicted_scope": [
+    "glioblastoma:4",
+    "astrocytoma:2",
+    "astrocytoma:3",
+    "astrocytoma:4",
+    "oligodendroglioma:2",
+    "oligodendroglioma:3"
+  ],
+  "global_recommendations": [
+    {
+      "id": "decision_factors",
+      "source": "EANO 2021",
+      "section": "Recommendations",
+      "page": 171,
+      "class": "C IV",
+      "level": "L A",
+      "start_phrase": "Karnofsky performance score (KPS), neurological function, age",
+      "quote": "Karnofsky performance score (KPS), neurological function, age, and individual risks and benefits should be considered for clinical decision-making.",
+      "verbatim": true
+    },
+    {
+      "id": "tissue_decisions",
+      "source": "EANO 2021",
+      "section": "Tissue acquisition",
+      "page": 172,
+      "class": null,
+      "level": null,
+      "start_phrase": "Treatment decisions in patients with glioma are made based on tissue diagnosis",
+      "quote": "Treatment decisions in patients with glioma are made based on tissue diagnosis, including the assessment of molecular markers relevant for diagnosis; therefore, upfront surgery is commonly performed with both diagnostic and therapeutic intent.",
+      "verbatim": true
+    },
+    {
+      "id": "tissue_not_feasible",
+      "source": "EANO 2021",
+      "section": "Tissue acquisition",
+      "page": 172,
+      "class": null,
+      "level": null,
+      "start_phrase": "When microsurgical resection is not safely feasible",
+      "quote": "When microsurgical resection is not safely feasible (for example, owing to the tumour location or the impaired clinical condition of the patient), a stereotactic biopsy should be performed.",
+      "verbatim": true
+    },
+    {
+      "id": "tissue_no_diagnosis",
+      "source": "EANO 2021",
+      "section": "Recommendation",
+      "page": 172,
+      "class": null,
+      "level": null,
+      "start_phrase": "Clinical decision-making without obtaining a tissue diagnosis",
+      "quote": "Clinical decision-making without obtaining a tissue diagnosis should be considered only in very exceptional situations.",
+      "verbatim": true
+    },
+    {
+      "id": "surgery_eor",
+      "source": "EANO 2021",
+      "section": "Recommendations",
+      "page": 176,
+      "class": "C IV",
+      "level": "L B",
+      "start_phrase": "The extent of resection is a prognostic factor",
+      "quote": "The extent of resection is a prognostic factor and thus, efforts at obtaining complete resections are justified across all glioma entities.",
+      "verbatim": true
+    },
+    {
+      "id": "surgery_deficits",
+      "source": "EANO 2021",
+      "section": "Recommendations",
+      "page": 176,
+      "class": "C IV",
+      "level": "L C",
+      "start_phrase": "In the current surgical approach to gliomas, the prevention of new permanent neurological deficits",
+      "quote": "In the current surgical approach to gliomas, the prevention of new permanent neurological deficits has higher priority than the extent of resection.",
+      "verbatim": true
+    },
+    {
+      "id": "surgery_mapping",
+      "source": "EANO 2021",
+      "section": "Surgery",
+      "page": 176,
+      "class": null,
+      "level": null,
+      "start_phrase": "The use of evoked potentials, electromyography or brain mapping in awake patients",
+      "quote": "The use of evoked potentials, electromyography or brain mapping in awake patients under local anaesthesia to monitor and preserve language and cognition facilitates resections in eloquent areas41.",
+      "verbatim": true
+    },
+    {
+      "id": "rt_timing",
+      "source": "EANO 2021",
+      "section": "Radiotherapy",
+      "page": 177,
+      "class": null,
+      "level": null,
+      "start_phrase": "Radiotherapy should start within 3-5 weeks after surgery",
+      "quote": "Radiotherapy should start within 3-5 weeks after surgery48 and is commonly administered at 50-60 Gy in 1.8-2 Gy daily fractions.",
+      "verbatim": true
+    },
+    {
+      "id": "rt_hypofraction",
+      "source": "EANO 2021",
+      "section": "Radiotherapy",
+      "page": 177,
+      "class": null,
+      "level": null,
+      "start_phrase": "Hypofractionated radiotherapy with a higher dose per fraction",
+      "quote": "Hypofractionated radiotherapy with a higher dose per fraction and a lower total dose (for example, 15 × 2.67 Gy) is appropriate in older patients (>65-70 years of age) and in those with a poor prognosis (typically defined by a KPS of <70)54.",
+      "verbatim": true
+    },
+    {
+      "id": "followup_watch_risk",
+      "source": "EANO 2021",
+      "section": "Follow-up",
+      "page": 177,
+      "class": null,
+      "level": null,
+      "start_phrase": "Watch-and-wait strategies without histological verification carry the risk",
+      "quote": "Watch-and-wait strategies without histological verification carry the risk of underestimating the grade of malignancy when determined using only neuroimaging and thus require initial intervals of only 2-3 months between scans.",
+      "verbatim": true
+    },
+    {
+      "id": "followup_interval",
+      "source": "EANO 2021",
+      "section": "Follow-up",
+      "page": 177,
+      "class": null,
+      "level": null,
+      "start_phrase": "After the completion of therapy, an initial interval between scans of 2-6 months",
+      "quote": "After the completion of therapy, an initial interval between scans of 2-6 months is common practice for most patients depending on the disease histology but longer intervals might be appropriate in NaTure RevIeWS | ClInIcAl Oncology evidence-Based guidelines volume 18 | March 2021 | 177 cases of durable disease control and more benign tumours.",
+      "verbatim": true
+    }
+  ],
+  "discouraged_treatments": {
+    "page": "183-184",
+    "note": "The co-pilot must NEVER recommend any of these.",
+    "items": [
+      "steroids for asymptomatic oedema",
+      "continuing any treatment beyond confirmed progression on that treatment (including bevacizumab and TTFields)",
+      "irinotecan and platinum compounds",
+      "CUSP9",
+      "cannabinoids",
+      "methadone",
+      "sulfasalazine",
+      "valproate (except for seizure control)"
+    ]
+  },
+  "post_guideline_updates": [
+    {
+      "id": "vorasidenib",
+      "source_type": "update",
+      "not_in_EANO_2021": true,
+      "applies_to_keys": [
+        "astrocytoma:2",
+        "oligodendroglioma:2"
+      ],
+      "applies_to": [
+        "IDH-mutant grade 2 astrocytoma or oligodendroglioma with residual/measurable disease after surgery, not candidates for immediate RT or chemotherapy",
+        "recurrent grade 2 non-enhancing disease in RT/chemo-naive patients"
+      ],
+      "statement": "Vorasidenib (a dual mutant IDH1/IDH2 inhibitor) is an option; in the INDIGO phase 3 trial median PFS was 27.7 vs 11.1 months. Adult dose 40 mg once daily until progression or unacceptable toxicity.",
+      "citations": [
+        "Mellinghoff IK et al. NEJM 2023;389:589-601 (INDIGO)",
+        "FDA label 2024 (approval Aug 2024)",
+        "Korea MFDS approval Jan 2026"
+      ],
+      "copilot_wording": "Not part of EANO 2021; per the INDIGO trial and current approvals, an IDH inhibitor (vorasidenib) is an option for residual/recurrent IDH-mutant grade 2 glioma when RT/chemotherapy is deferred."
+    }
+  ],
+  "rows": {
+    "glioblastoma:4": {
+      "diagnosis_label": "Glioblastoma, IDH-wildtype, CNS WHO grade 4",
+      "first_line_adjuvant": "Temozolomide chemoradiotherapy: radiotherapy 60 Gy in 1.8-2 Gy fractions (Table 2: 54-60 Gy) with concomitant temozolomide 75 mg/m2 daily during radiotherapy, then maintenance temozolomide 150-200 mg/m2 on days 1-5 of 28-day cycles (Stupp regimen; age <70).",
+      "observation_eligibility": "Not standard.",
+      "age_branch": "Operational cutoff 70 years (guideline text writes 65-70). Age <70 with KPS >=70: temozolomide chemoradiotherapy. Age <70 with KPS <70: hypofractionated radiotherapy (40 Gy in 15 fractions, ~2.67 Gy). Age >=70: MGMT-methylated -> temozolomide chemoradiotherapy or temozolomide alone; MGMT non-methylated/unknown -> hypofractionated radiotherapy. KPS <50 or unable to consent: best supportive / palliative care.",
+      "at_progression": "Nitrosourea; temozolomide rechallenge; re-resection; re-irradiation; bevacizumab for symptom control; standards at recurrence are less well defined.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "MGMT promoter status",
+        "KPS",
+        "extent of resection"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "glioblastoma_4_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Glioblastoma, IDH wild type, WHO grade 4",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2 Gy fractions)",
+          "quote": "Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2 Gy fractions) (potentially without concomitant temozolomide) Nitrosourea; temozolomide rechallenge; bevacizumabf Per extrapolation from IDH-mutant anaplastic astrocytoma88 or from glioblastoma59 Glioblastoma, IDH wild type, WHO grade 4; giant cell glioblastoma; gliosarcoma; epithelioid glioblastoma Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_surgery",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": null,
+          "level": null,
+          "start_phrase": "Surgery for glioblastoma should involve gross total resection",
+          "quote": "Surgery for glioblastoma should involve gross total resection whenever feasible46.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_stupp",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 181,
+          "class": null,
+          "level": null,
+          "start_phrase": "Concomitant radiotherapy and chemotherapy with temozolomide (75 mg/m2 daily",
+          "quote": "Concomitant radiotherapy and chemotherapy with temozolomide (75 mg/m2 daily throughout radiotherapy, including at weekends) plus six cycles of maintenance temozolomide (150-200 mg/m2, 5 out of 28 days) is the standard of care for adults with newly diagnosed glioblastoma who are in good general and neurological condition and are aged <70 years59.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_hypofraction",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 181,
+          "class": null,
+          "level": null,
+          "start_phrase": "Patients with unfavourable prognostic factors (defined by age and/or KPS) can be treated with hypofractionated radiotherapy (such as 40 Gy in 15 fractions)",
+          "quote": "Patients with unfavourable prognostic factors (defined by age and/or KPS) can be treated with hypofractionated radiotherapy (such as 40 Gy in 15 fractions), which has similar activity to irradiation with 60 Gy in 30 fractions54.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_tmz_hypo_os",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 181,
+          "class": null,
+          "level": null,
+          "start_phrase": "The addition of temozolomide to hypofractionated radiotherapy",
+          "quote": "The addition of temozolomide to hypofractionated radiotherapy54 has also been shown to improve OS in patients aged ≥60 years94.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_mgmt_rule",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 181,
+          "class": null,
+          "level": null,
+          "start_phrase": "patients with tumours lacking MGMT promoter methylation or of unknown",
+          "quote": "patients with tumours lacking MGMT promoter methylation or of unknown MGMT promoter methylation status should be treated with hypofractionated radiotherapy alone whereas those with tumours with MGMT promoter methylation status should receive temozolomide alone (5 out of 28 days until disease progression or for 12 months)97.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_rec_soc",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 183,
+          "class": "C I",
+          "level": "L A",
+          "start_phrase": "The standard of care for patients with IDH-wild-type glioblastoma aged <70 years",
+          "quote": "The standard of care for patients with IDH-wild-type glioblastoma aged <70 years and with a KPS >70 includes resection as feasible or biopsy followed by involved-field radiotherapy and concomitant radio therapy and six cycles of maintenance temozolomide chemotherapy (EORTC 26981-NCIC CE.3)59.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_rec_tmz_mgmt",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 183,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "Temozolomide might only be active in patients with MGMT",
+          "quote": "Temozolomide might only be active in patients with MGMT promoter-methylated tumours whereas its activity in patients with MGMT promoter- unmethylated tumours is probably marginal95.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_rec_elderly",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 183,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "Elderly patients not considered candidates",
+          "quote": "Elderly patients not considered candidates for temozolomide chemoradiotherapy should be treated on the basis of MGMT promoter methylation status (NOA-08, Nordic Trial) with radiotherapy (such as 15 × 2.66 Gy) or temozolomide (5 out of 28 days) alone96,98,97.",
+          "verbatim": true
+        },
+        {
+          "id": "gbm_rec_recurrence",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 183,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "At recurrence, standards of care are less well defined",
+          "quote": "At recurrence, standards of care are less well defined.",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {
+        "rt_dose": "60 Gy in 1.8-2 Gy fractions (Table 2: 54-60 Gy; text p.180: 60 Gy)",
+        "elderly_cutoff": "70 (state '65-70 per guideline text'; Fig.3 and C I use >=70)",
+        "hypofractionation": "40 Gy in 15 fractions (2.67 Gy; recommendation text: 15 x 2.66 Gy)"
+      }
+    },
+    "astrocytoma:4": {
+      "diagnosis_label": "Astrocytoma, IDH-mutant, CNS WHO grade 4",
+      "first_line_adjuvant": "Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2 Gy fractions), potentially without concomitant temozolomide (radiotherapy followed by temozolomide). Evidence is extrapolated from IDH-mutant anaplastic (grade 3) astrocytoma and glioblastoma trials rather than dedicated trials - state this explicitly.",
+      "observation_eligibility": "Not standard.",
+      "age_branch": "No specific age rule; KPS-based intensity caveat applies.",
+      "at_progression": "Nitrosourea; temozolomide rechallenge; bevacizumab for symptom control.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "CDKN2A/B homozygous deletion (grading)",
+        "MGMT promoter status",
+        "KPS",
+        "extent of resection"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "astrocytoma_4_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Astrocytoma, IDH-mutant, WHO grade 4",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2 Gy fractions) (potentially without concomitant temozolomide)",
+          "quote": "Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2 Gy fractions) (potentially without concomitant temozolomide) Nitrosourea; temozolomide rechallenge; bevacizumabf Per extrapolation from IDH-mutant anaplastic astrocytoma88 or from glioblastoma59 Glioblastoma, IDH wild type, WHO grade 4; giant cell glioblastoma; gliosarcoma; epithelioid glioblastoma Temozolomide chemoradiotherapy (54-60 Gy in 1.8-2",
+          "verbatim": true
+        },
+        {
+          "id": "astro4_naming",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": null,
+          "level": null,
+          "start_phrase": "Tumours formerly diagnosed as IDH-mutant glioblastoma are now referred to as",
+          "quote": "Tumours formerly diagnosed as IDH-mutant glioblastoma are now referred to as IDH-mutant astrocytoma, WHO grade 4, and are managed either as IDH-wild-type glioblastoma or as IDH-mutant astrocytoma, WHO grade 3 (Table 2).",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {
+        "keep": "keep 'evidence is extrapolated' wording"
+      }
+    },
+    "astrocytoma:3": {
+      "diagnosis_label": "Astrocytoma, IDH-mutant, CNS WHO grade 3",
+      "first_line_adjuvant": "Radiotherapy 60 Gy (Table 2: 54-60 Gy in 1.8-2 Gy fractions) followed by maintenance temozolomide for 12 cycles (CATNON). The role of concomitant temozolomide during radiotherapy is uncertain - do not present concomitant temozolomide as standard.",
+      "observation_eligibility": "Wait-and-see is an option per Table 2 in selected cases; radiotherapy is part of first-line for grade >=3.",
+      "age_branch": "No specific age rule.",
+      "at_progression": "Nitrosourea; temozolomide rechallenge; re-resection; re-irradiation after a minimum interval of ~12 months if the lesion is small.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "extent of resection",
+        "KPS"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "astrocytoma_3_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Astrocytoma, IDH-mutant, WHO grade 3",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Radiotherapy (54-60 Gy in 1.8-2 Gy fractions) followed by temozolomide (or wait-and-see)",
+          "quote": "Radiotherapy (54-60 Gy in 1.8-2 Gy fractions) followed by temozolomide (or wait-and-see) Nitrosourea; temozolomide rechallenge 88 Anaplastic astrocytoma, IDH wild type, WHO grade 3 Radiotherapy (54-60 Gy in 1.8-2 Gy fractions); temozolomide chemoradiotherapy, by MGMT promoter methylation status (?) Temozolomide rechallenge; nitrosourea; bevacizumabf Per extrapolation from IDH-wild-type glioblastom",
+          "verbatim": true
+        },
+        {
+          "id": "astro3_soc",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": null,
+          "level": null,
+          "start_phrase": "The standard of care for patients with this disease subtype is maximal surgical resection or biopsy followed by radiotherapy at 60 Gy",
+          "quote": "The standard of care for patients with this disease subtype is maximal surgical resection or biopsy followed by radiotherapy at 60 Gy in 1.8-2 Gy fractions (Table 1).",
+          "verbatim": true
+        },
+        {
+          "id": "astro3_catnon",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": null,
+          "level": null,
+          "start_phrase": "The EORTC 26053 trial (CATNON)",
+          "quote": "The EORTC 26053 trial (CATNON) of radiotherapy alone, with concomitant or maintenance temozolomide or with both concomitant and maintenance temozolomide showed a significant prolongation of OS in patients receiving radiotherapy followed by 12 cycles of maintenance temozolomide and, thus, this approach should be considered standard of care; however, the role of concomitant temozolomide remains uncertain88.",
+          "verbatim": true
+        },
+        {
+          "id": "astro3_reirradiation",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": null,
+          "level": null,
+          "start_phrase": "For those with disease relapse after radiotherapy, re-irradiation after a minimum interval of",
+          "quote": "For those with disease relapse after radiotherapy, re-irradiation after a minimum interval of ~12 months following the first course of radiotherapy is an option, although tumour size and patterns of recurrence limit the option of re-irradiation and the overall efficacy of this strategy remains uncertain in the absence of data from RCTs.",
+          "verbatim": true
+        },
+        {
+          "id": "astro3_rec",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "The standard of care for IDH-mutant astrocytomas, WHO grade 3 includes",
+          "quote": "The standard of care for IDH-mutant astrocytomas, WHO grade 3 includes resection as feasible or biopsy followed by involved field radiotherapy and maintenance temozolomide (CATNON)88.",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {
+        "rt_dose": "60 Gy (text) / 54-60 Gy (Table 2); maintenance TMZ 12 cycles; concomitant TMZ NOT standard"
+      }
+    },
+    "astrocytoma:2": {
+      "diagnosis_label": "Astrocytoma, IDH-mutant, CNS WHO grade 2",
+      "first_line_adjuvant": "If treatment is indicated: involved-field radiotherapy 50-54 Gy (50 Gy in 1.8 Gy fractions in text) followed by PCV (procarbazine, lomustine, vincristine).",
+      "observation_eligibility": "Wait-and-see for low-risk patients (pragmatic cut-off ~40-45 years, asymptomatic or seizures only, after resection).",
+      "age_branch": "Radiotherapy is indicated for incomplete resection and/or age >40 years; younger low-risk patients may be observed. RTOG 9802 high-risk = age 18-39 with subtotal resection/biopsy, or age >=40.",
+      "at_progression": "Temozolomide (or nitrosourea); re-resection; re-irradiation in selected cases.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "extent of resection",
+        "symptoms/neurologic deficit",
+        "KPS"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "astrocytoma_2_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Astrocytoma, IDH-mutant, WHO grade 2",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Wait-and-see or radiotherapy (50-54 Gy in 1.8-2 Gy fractions) followed by PCV",
+          "quote": "Wait-and-see or radiotherapy (50-54 Gy in 1.8-2 Gy fractions) followed by PCV (or temozolomide chemoradiotherapy) Temozolomide (or nitrosourea) RTOG 9802 (ref.75) and per extrapolation from WHO grade 3 tumours88 Diffuse astrocytoma, IDH wild type, WHO grade 2a,e Wait-and-see (?); radiotherapy (50-54 Gy in 1.8-2 Gy fractions); radiotherapy followed by PCV or temozolomide chemoradiotherapy (by MGMT",
+          "verbatim": true
+        },
+        {
+          "id": "astro2_surgery",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Maximal surgical resection, if safely feasible, is the best initial therapeutic approach",
+          "quote": "Maximal surgical resection, if safely feasible, is the best initial therapeutic approach84.",
+          "verbatim": true
+        },
+        {
+          "id": "astro2_young",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Younger patients (pragmatic cut-off",
+          "quote": "Younger patients (pragmatic cut-off ~40-45 years of age) who are asymptomatic or with seizures only, can be managed through observation alone after gross total resection.",
+          "verbatim": true
+        },
+        {
+          "id": "astro2_rt_indication",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Involved-field radiotherapy (50 Gy in 1.8 Gy fractions) should be considered for patients with incomplete resection",
+          "quote": "Involved-field radiotherapy (50 Gy in 1.8 Gy fractions) should be considered for patients with incomplete resection and/or for patients aged >40 years.",
+          "verbatim": true
+        },
+        {
+          "id": "astro2_rtog9802",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "The RTOG 9802 trial reported a major prolongation of OS",
+          "quote": "The RTOG 9802 trial reported a major prolongation of OS with the addition of PCV polychemotherapy to radiotherapy (54 Gy), from 7.8 years to 13.3 years in patients with high-risk WHO grade 2 gliomas who were 18-39 years of age and had undergone a subtotal resection or biopsy or in those aged ≥40 years75.",
+          "verbatim": true
+        },
+        {
+          "id": "astro2_rec",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "The standard of care for IDH-mutant astrocytomas, WHO grade 2 requiring further treatment",
+          "quote": "The standard of care for IDH-mutant astrocytomas, WHO grade 2 requiring further treatment includes resection as feasible or biopsy followed by involved field radiotherapy and maintenance PCV polychemotherapy (RTOG 9802)75.",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {
+        "observation_cutoff": "~40-45 years (text)",
+        "rt_indication": "incomplete resection and/or age >40",
+        "rt_dose": "50-54 Gy (50 Gy in 1.8 Gy in text)"
+      }
+    },
+    "oligodendroglioma:3": {
+      "diagnosis_label": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, CNS WHO grade 3",
+      "first_line_adjuvant": "Radiotherapy 54-60 Gy in 1.8-2 Gy fractions followed by PCV (two large RCTs showed PCV approximately doubled OS). Wait-and-see per Table 2 only in very selected cases.",
+      "observation_eligibility": "Watch-and-wait after complete resection may be considered for younger patients (<40 years) only without CDKN2A/B homozygous deletion, after gross total resection, and with no neurologic deficits.",
+      "age_branch": "Age <40 is one of the watch-and-wait conditions but not sufficient alone.",
+      "at_progression": "Second surgery should always be considered; temozolomide; bevacizumab for symptom control.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "1p/19q codeletion confirmation",
+        "CDKN2A/B status",
+        "extent of resection",
+        "KPS"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "oligodendroglioma_3_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 3",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Radiotherapy (54-60 Gy in 1.8-2 Gy fractions) followed by PCV (or wait-and-see)",
+          "quote": "Radiotherapy (54-60 Gy in 1.8-2 Gy fractions) followed by PCV (or wait-and-see) Temozolomide 79,80 Anaplastic oligodendroglioma, NOS, WHO grade 3 See oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 3 See oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 3 Per extrapolation because most of these tumours carry IDH mutations Oligoastrocytoma, NOS, WHO grade 2 Wait-and-see; r",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_eor",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "In this subtype, the extent of resection is a prognostic factor",
+          "quote": "In this subtype, the extent of resection is a prognostic factor78.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_watch",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "watch-and-wait strategies after complete resection can also be considered for younger patients",
+          "quote": "watch-and-wait strategies after complete resection can also be considered for younger patients (<40 years of age) with WHO grade 3 tumours, specifically for those without homozygous CDKN2A/B deletion, although only after gross total resection and in the absence of neurological deficits.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_pcv",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Two large RCTs showed that the addition of PCV",
+          "quote": "Two large RCTs showed that the addition of PCV, either prior to or after radiotherapy, in the first-line of treatment approximately doubled the OS79,80.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_second_surgery",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Second surgery should always be considered",
+          "quote": "Second surgery should always be considered.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_bev",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "bevacizumab can be used for symptom control",
+          "quote": "bevacizumab can be used for symptom control; however, the antitumour efficacy of bevacizumab is unknown and no evidence supports its combination with cytotoxic agents in this setting.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo3_rec",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "Patients with IDH-mutant and 1p/19q-codeleted oligodendrogliomas, WHO grade 3 should be treated",
+          "quote": "Patients with IDH-mutant and 1p/19q-codeleted oligodendrogliomas, WHO grade 3 should be treated with radiotherapy followed by PCV polychemotherapy (EORTC 26951, RTOG 9402)79,80.",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {}
+    },
+    "oligodendroglioma:2": {
+      "diagnosis_label": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, CNS WHO grade 2",
+      "first_line_adjuvant": "If further treatment beyond surgery is deemed necessary: radiotherapy 50-54 Gy in 1.8-2 Gy fractions followed by PCV.",
+      "observation_eligibility": "Watch-and-wait is justified after gross total resection (and potentially <40 years with incomplete resection if no deficits beyond symptomatic epilepsy).",
+      "age_branch": "Surgery is the primary modality; watch-and-wait after gross total resection, otherwise radiotherapy followed by PCV.",
+      "at_progression": "Temozolomide chemotherapy is standard treatment at progression.",
+      "pending_determinants": [
+        "histologic confirmation",
+        "1p/19q codeletion confirmation",
+        "extent of resection",
+        "KPS"
+      ],
+      "surgical_step": "(set per location_eloquence at call time)",
+      "evidence": [
+        {
+          "id": "oligodendroglioma_2_table2",
+          "source": "EANO 2021",
+          "section": "Table 2 (p.179): Oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 2",
+          "page": 179,
+          "class": "Table 2",
+          "level": null,
+          "start_phrase": "Wait-and-see; radiotherapy (50-54 Gy in 1.8-2 Gy fractions) followed by PCV",
+          "quote": "Wait-and-see; radiotherapy (50-54 Gy in 1.8-2 Gy fractions) followed by PCV Temozolomide Per extrapolation from WHO grade 3 tumours79,80 and RTOG 9802 (ref.75) Oligodendroglioma, NOS, WHO grade 2 See oligodendroglioma, IDH-mutant and 1p/19q-codeleted, WHO grade 2 See oligodendroglioma, IDH-mutant and 1p/19q- codeleted, WHO grade 2 Per extrapolation because most of these tumours carry IDH mutations",
+          "verbatim": true
+        },
+        {
+          "id": "oligo2_surgery",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "Surgery is the primary treatment modality for patients with gliomas of this subtype",
+          "quote": "Surgery is the primary treatment modality for patients with gliomas of this subtype.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo2_watch",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "watch-and-wait strategies are justified in those with gross total resection",
+          "quote": "watch-and-wait strategies are justified in those with gross total resection and potentially also in younger patients (<40 years of age) with incomplete resection if the tumour has not yet caused neurological deficits beyond symptomatic epilepsy.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo2_further",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 178,
+          "class": null,
+          "level": null,
+          "start_phrase": "If further treatment beyond surgery is deemed necessary, the standard of care is radiotherapy followed by PCV",
+          "quote": "If further treatment beyond surgery is deemed necessary, the standard of care is radiotherapy followed by PCV75.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo2_rec",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": "C III",
+          "level": "L B",
+          "start_phrase": "Patients with IDH-mutant and 1p/19q-codeleted oligodendrogliomas, WHO grade 2 requiring further treatment",
+          "quote": "Patients with IDH-mutant and 1p/19q-codeleted oligodendrogliomas, WHO grade 2 requiring further treatment should be treated with radiotherapy followed by PCV polychemotherapy.",
+          "verbatim": true
+        },
+        {
+          "id": "oligo2_rec_progression",
+          "source": "EANO 2021",
+          "section": "Therapy - specific recommendations",
+          "page": 180,
+          "class": "C II",
+          "level": "L B",
+          "start_phrase": "Temozolomide chemotherapy is standard treatment at progression",
+          "quote": "Temozolomide chemotherapy is standard treatment at progression after surgery and radiotherapy for most patients with IDH-mutant gliomas, WHO grade 2 or 3.",
+          "verbatim": true
+        }
+      ],
+      "corrections_applied": {
+        "rt_dose": "50-54 Gy (summary table omitted the dose)"
+      }
+    }
+  },
+  "out_of_scope": {
+    "diffuse midline glioma, H3 K27-altered": "Outside the imaging-prediction scope; refer to EANO 2021. No recommendation.",
+    "other": "Diagnosis not among the six predicted diffuse-glioma classes; no recommendation."
+  }
+}

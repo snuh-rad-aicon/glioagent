@@ -1,0 +1,466 @@
+{
+"2001": [
+"Precentral",
+"L"
+],
+"2002": [
+"Precentral",
+"R"
+],
+"2101": [
+"Frontal_Sup",
+"L"
+],
+"2102": [
+"Frontal_Sup",
+"R"
+],
+"2111": [
+"Frontal_Sup_Orb",
+"L"
+],
+"2112": [
+"Frontal_Sup_Orb",
+"R"
+],
+"2201": [
+"Frontal_Mid",
+"L"
+],
+"2202": [
+"Frontal_Mid",
+"R"
+],
+"2211": [
+"Frontal_Mid_Orb",
+"L"
+],
+"2212": [
+"Frontal_Mid_Orb",
+"R"
+],
+"2301": [
+"Frontal_Inf_Oper",
+"L"
+],
+"2302": [
+"Frontal_Inf_Oper",
+"R"
+],
+"2311": [
+"Frontal_Inf_Tri",
+"L"
+],
+"2312": [
+"Frontal_Inf_Tri",
+"R"
+],
+"2321": [
+"Frontal_Inf_Orb",
+"L"
+],
+"2322": [
+"Frontal_Inf_Orb",
+"R"
+],
+"2331": [
+"Rolandic_Oper",
+"L"
+],
+"2332": [
+"Rolandic_Oper",
+"R"
+],
+"2401": [
+"Supp_Motor_Area",
+"L"
+],
+"2402": [
+"Supp_Motor_Area",
+"R"
+],
+"2501": [
+"Olfactory",
+"L"
+],
+"2502": [
+"Olfactory",
+"R"
+],
+"2601": [
+"Frontal_Sup_Medial",
+"L"
+],
+"2602": [
+"Frontal_Sup_Medial",
+"R"
+],
+"2611": [
+"Frontal_Med_Orb",
+"L"
+],
+"2612": [
+"Frontal_Med_Orb",
+"R"
+],
+"2701": [
+"Rectus",
+"L"
+],
+"2702": [
+"Rectus",
+"R"
+],
+"3001": [
+"Insula",
+"L"
+],
+"3002": [
+"Insula",
+"R"
+],
+"4001": [
+"Cingulum_Ant",
+"L"
+],
+"4002": [
+"Cingulum_Ant",
+"R"
+],
+"4011": [
+"Cingulum_Mid",
+"L"
+],
+"4012": [
+"Cingulum_Mid",
+"R"
+],
+"4021": [
+"Cingulum_Post",
+"L"
+],
+"4022": [
+"Cingulum_Post",
+"R"
+],
+"4101": [
+"Hippocampus",
+"L"
+],
+"4102": [
+"Hippocampus",
+"R"
+],
+"4111": [
+"ParaHippocampal",
+"L"
+],
+"4112": [
+"ParaHippocampal",
+"R"
+],
+"4201": [
+"Amygdala",
+"L"
+],
+"4202": [
+"Amygdala",
+"R"
+],
+"5001": [
+"Calcarine",
+"L"
+],
+"5002": [
+"Calcarine",
+"R"
+],
+"5011": [
+"Cuneus",
+"L"
+],
+"5012": [
+"Cuneus",
+"R"
+],
+"5021": [
+"Lingual",
+"L"
+],
+"5022": [
+"Lingual",
+"R"
+],
+"5101": [
+"Occipital_Sup",
+"L"
+],
+"5102": [
+"Occipital_Sup",
+"R"
+],
+"5201": [
+"Occipital_Mid",
+"L"
+],
+"5202": [
+"Occipital_Mid",
+"R"
+],
+"5301": [
+"Occipital_Inf",
+"L"
+],
+"5302": [
+"Occipital_Inf",
+"R"
+],
+"5401": [
+"Fusiform",
+"L"
+],
+"5402": [
+"Fusiform",
+"R"
+],
+"6001": [
+"Postcentral",
+"L"
+],
+"6002": [
+"Postcentral",
+"R"
+],
+"6101": [
+"Parietal_Sup",
+"L"
+],
+"6102": [
+"Parietal_Sup",
+"R"
+],
+"6201": [
+"Parietal_Inf",
+"L"
+],
+"6202": [
+"Parietal_Inf",
+"R"
+],
+"6211": [
+"SupraMarginal",
+"L"
+],
+"6212": [
+"SupraMarginal",
+"R"
+],
+"6221": [
+"Angular",
+"L"
+],
+"6222": [
+"Angular",
+"R"
+],
+"6301": [
+"Precuneus",
+"L"
+],
+"6302": [
+"Precuneus",
+"R"
+],
+"6401": [
+"Paracentral_Lobule",
+"L"
+],
+"6402": [
+"Paracentral_Lobule",
+"R"
+],
+"7001": [
+"Caudate",
+"L"
+],
+"7002": [
+"Caudate",
+"R"
+],
+"7011": [
+"Putamen",
+"L"
+],
+"7012": [
+"Putamen",
+"R"
+],
+"7021": [
+"Pallidum",
+"L"
+],
+"7022": [
+"Pallidum",
+"R"
+],
+"7101": [
+"Thalamus",
+"L"
+],
+"7102": [
+"Thalamus",
+"R"
+],
+"8101": [
+"Heschl",
+"L"
+],
+"8102": [
+"Heschl",
+"R"
+],
+"8111": [
+"Temporal_Sup",
+"L"
+],
+"8112": [
+"Temporal_Sup",
+"R"
+],
+"8121": [
+"Temporal_Pole_Sup",
+"L"
+],
+"8122": [
+"Temporal_Pole_Sup",
+"R"
+],
+"8201": [
+"Temporal_Mid",
+"L"
+],
+"8202": [
+"Temporal_Mid",
+"R"
+],
+"8211": [
+"Temporal_Pole_Mid",
+"L"
+],
+"8212": [
+"Temporal_Pole_Mid",
+"R"
+],
+"8301": [
+"Temporal_Inf",
+"L"
+],
+"8302": [
+"Temporal_Inf",
+"R"
+],
+"9001": [
+"Cerebelum_Crus1",
+"L"
+],
+"9002": [
+"Cerebelum_Crus1",
+"R"
+],
+"9011": [
+"Cerebelum_Crus2",
+"L"
+],
+"9012": [
+"Cerebelum_Crus2",
+"R"
+],
+"9021": [
+"Cerebelum_3",
+"L"
+],
+"9022": [
+"Cerebelum_3",
+"R"
+],
+"9031": [
+"Cerebelum_4_5",
+"L"
+],
+"9032": [
+"Cerebelum_4_5",
+"R"
+],
+"9041": [
+"Cerebelum_6",
+"L"
+],
+"9042": [
+"Cerebelum_6",
+"R"
+],
+"9051": [
+"Cerebelum_7b",
+"L"
+],
+"9052": [
+"Cerebelum_7b",
+"R"
+],
+"9061": [
+"Cerebelum_8",
+"L"
+],
+"9062": [
+"Cerebelum_8",
+"R"
+],
+"9071": [
+"Cerebelum_9",
+"L"
+],
+"9072": [
+"Cerebelum_9",
+"R"
+],
+"9081": [
+"Cerebelum_10",
+"L"
+],
+"9082": [
+"Cerebelum_10",
+"R"
+],
+"9100": [
+"Vermis_1_2",
+"M"
+],
+"9110": [
+"Vermis_3",
+"M"
+],
+"9120": [
+"Vermis_4_5",
+"M"
+],
+"9130": [
+"Vermis_6",
+"M"
+],
+"9140": [
+"Vermis_7",
+"M"
+],
+"9150": [
+"Vermis_8",
+"M"
+],
+"9160": [
+"Vermis_9",
+"M"
+],
+"9170": [
+"Vermis_10",
+"M"
+]
+}

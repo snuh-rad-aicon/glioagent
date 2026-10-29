@@ -1,0 +1,52 @@
+# GlioAgent -- Python 3.10
+#   conda create -n glioagent python=3.10 && conda activate glioagent
+#   pip install -r requirements.txt
+#
+# The index URL below selects the GPU (CUDA) build of torch/torchvision.
+# Swap cu130 for the tag that matches your CUDA runtime.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch
+torchvision
+
+# LLM orchestrator + co-pilot (in-process, no server)
+transformers
+accelerate
+huggingface_hub
+
+# Segmentation: HD-GLIO source is vendored under tools/hdglio; these are its
+# nnU-Net runtime deps.
+nnunet
+batchgenerators
+
+# Molecular subtyping (GlioMT, vendored under tools/gliomt)
+monai
+timm
+omegaconf
+torchmetrics
+grad-cam
+opencv-python-headless        # cv2 for grad-cam without the libGL system dep
+
+# VASARI auto-features: source + MNI atlas vendored under tools/vasari;
+# antspyx is its registration backend.
+antspyx
+
+# Imaging / numerics / IO
+numpy
+scipy
+pandas
+scikit-image
+scikit-learn
+nibabel
+SimpleITK
+einops
+matplotlib
+seaborn
+pillow
+
+# Schemas / utils
+pydantic
+gdown
+
+# Reader-study dashboard (reader_study/app.py) + public tunnel
+streamlit
+pyngrok
